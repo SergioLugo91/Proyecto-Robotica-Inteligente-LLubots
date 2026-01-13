@@ -44,7 +44,6 @@ Contiene la solución completa de visión artificial en Python.
 
 **Características principales:**
 - Detección de Arucos (códigos QR visuales) para delimitar el ring y ubicar robots
-- Estereovisión con dos cámaras
 - Procesamiento con OpenCV
 - Comunicación con robots vía TCP/WiFi
 - Calibración de cámaras incluida
@@ -56,6 +55,7 @@ Contiene la solución completa de visión artificial en Python.
 - `Calibracion/` - Herramientas de calibración de cámaras
 - **Submódulo de Comunicaciones** (`RobPCComm/`): Librería de comunicación PC-Robot como submódulo independiente
 - Sistema de comunicación PC ↔ Robots
+- `GUI.py` - Interfaz del sistema
 
 ---
 
@@ -153,9 +153,9 @@ Contiene la solución completa de visión artificial en Python.
    python calibracion.py
    ```
 
-4. **Ejecutar detección de ArUcos:**
+4. **Ejecutar interfaz de usuario:**
    ```bash
-   python PruebaArUcos.py
+   python GUI.py
    ```
 
 ---
